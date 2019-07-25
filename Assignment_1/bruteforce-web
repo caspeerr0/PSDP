@@ -1,8 +1,8 @@
-function pruteforce-web
+function bruteforce-web
 { 
 <#
 .SYNOPSIS
-A cmdlet to prutforce basix authontcation .
+A cmdlet to bruteforce basix authontcation .
 .DESCRIPTION
 This script checks if the user & Password are right or no while proccecing lists of users and passswords.
 .PARAMETER Hostname
@@ -19,8 +19,8 @@ stop process if the code if there are sucssede.
 the protocole web server using .
 
 .EXAMPLE
-PS C:\> . .\pruteforce-web.ps1
-PS C:\> pruteforce-web -hostname www.httpwatch.com/httpgallery/authentication/authenticatedimage/default.aspx -usernamelist c:\user.txt -passwordlist c:\passwords.txt
+PS C:\> . .\bruteforce-web.ps1
+PS C:\> bruteforce-web -hostname www.httpwatch.com/httpgallery/authentication/authenticatedimage/default.aspx -usernamelist c:\user.txt -passwordlist c:\passwords.txt
 .
 .LINK
 www.httpwatch.com/httpgallery/authentication/authenticatedimage/default.aspx
