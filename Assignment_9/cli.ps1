@@ -26,8 +26,8 @@ The author of the commit.
 The email of the author of the commit.
 
 .EXAMPLE
-PS C:\> . .\GitHub-Master
-PS C:\> GitHub-Master -token *************************  -URIgit https://api.github.com/repos/username/repo/contents/command.txt -URIout https://api.github.com/repos/username/repo/contents/out.txt
+PS C:\> . .\cli.ps1
+PS C:\> shell -token *************************  -URIgit https://api.github.com/repos/username/repo/contents/command.txt -URIout https://api.github.com/repos/username/repo/contents/out.txt
 .LINK
 https://developer.github.com/v3/repos/contents/
 https://github.com/blog/1509-personal-api-tokens
