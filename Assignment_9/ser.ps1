@@ -1,4 +1,4 @@
-function GitHub-Master
+function Master
 { 
 <#
 .SYNOPSIS
@@ -12,6 +12,8 @@ genreted by github.
 
 .PARAMTER URIgit
 this is the link for the repo .
+.PARAMTER URIout
+the URL will read the response from  .
 .PARAMTER wait
 the wait time to the master write command to execute in the butenet.
 .PARAMTER commitMessage
@@ -24,8 +26,8 @@ The author of the commit.
 The email of the author of the commit.
 
 .EXAMPLE
-PS C:\> . .\GitHub-Master
-PS C:\> GitHub-Master -token *************************  -githubCmdURI https://
+PS C:\> . .\ser.ps1
+PS C:\> Master -token *************************  -URIgit https://api.github.com/repos/username/repo/contents/command.txt
 .LINK
 https://developer.github.com/v3/repos/contents/
 https://github.com/blog/1509-personal-api-tokens
