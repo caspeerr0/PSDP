@@ -27,7 +27,7 @@ www.httpwatch.com/httpgallery/authentication/authenticatedimage/default.aspx
 .NOTES
 This script has been created for completing the requirements of the SecurityTube PowerShell for Penetration Testers Certification Exam
 http://www.securitytube-training.com/online-courses/powershell-for-pentesters/
-Student ID: 
+Student ID: PSP-3270
 #>
 
 [CmdletBinding()] Param(
